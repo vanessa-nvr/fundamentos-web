@@ -1,0 +1,75 @@
+/*
+    Estilos da página index
+*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    background-color: rgba(212, 179, 195, 0.123); 
+}
+
+.center{
+    text-align: center;
+}
+
+
+*{
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+#menu ul li{
+    display: inline /*alinha os "icones" do menu*/;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20%;
+}
+
+#menu ul li a{
+    color: rgba(26, 26, 26, 0.555);
+}
+#menu ul li a:hover{
+    color: rgba(42, 43, 42, 0.192);
+}
+
+#titulo{
+    color:rgba(55, 80, 55, 0.856);
+    text-align: center;
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.container img{
+    width: 200px;
+    height: auto;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.videos{
+    color:rgba(55, 80, 55, 0.856);
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+.tm-social{
+    width: 50px;
+    padding: 15px;
+    
+}
+.socialposicao{
+    display: flex;
+    justify-content: center;
+}
+
+
